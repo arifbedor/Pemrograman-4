@@ -1,0 +1,58 @@
+cd D:\Data Arief\Universitas Pancasila\Semester VI\Pemrograman 4\Praktikum\Praktikum1; "JAVA_HOME=C:\\Program Files (x86)\\Java\\jdk1.8.0_20" cmd /c "\"\"C:\\Program Files (x86)\\NetBeans 8.0.2\\java\\maven\\bin\\mvn.bat\" -Dnetbeans.deploy=true -Dnetbeans.deploy.clientUrlPart=/Prak1_servlet -Dmaven.ext.class.path=\"C:\\Program Files (x86)\\NetBeans 8.0.2\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 package\""
+Scanning for projects...
+                                                                        
+------------------------------------------------------------------------
+Building Praktikum-1 1.0-SNAPSHOT
+------------------------------------------------------------------------
+
+--- maven-dependency-plugin:2.6:copy (default) @ Praktikum-1 ---
+
+--- maven-resources-plugin:2.5:resources (default-resources) @ Praktikum-1 ---
+[debug] execute contextualize
+Using 'UTF-8' encoding to copy filtered resources.
+Copying 0 resource
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ Praktikum-1 ---
+Changes detected - recompiling the module!
+Compiling 1 source file to D:\Data Arief\Universitas Pancasila\Semester VI\Pemrograman 4\Praktikum\Praktikum1\target\classes
+
+--- maven-resources-plugin:2.5:testResources (default-testResources) @ Praktikum-1 ---
+[debug] execute contextualize
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory D:\Data Arief\Universitas Pancasila\Semester VI\Pemrograman 4\Praktikum\Praktikum1\src\test\resources
+
+--- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Praktikum-1 ---
+No sources to compile
+
+--- maven-surefire-plugin:2.10:test (default-test) @ Praktikum-1 ---
+Surefire report directory: D:\Data Arief\Universitas Pancasila\Semester VI\Pemrograman 4\Praktikum\Praktikum1\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+
+--- maven-war-plugin:2.3:war (default-war) @ Praktikum-1 ---
+Packaging webapp
+Assembling webapp [Praktikum-1] in [D:\Data Arief\Universitas Pancasila\Semester VI\Pemrograman 4\Praktikum\Praktikum1\target\Praktikum-1-1.0-SNAPSHOT]
+Processing war project
+Copying webapp resources [D:\Data Arief\Universitas Pancasila\Semester VI\Pemrograman 4\Praktikum\Praktikum1\src\main\webapp]
+Webapp assembled in [31 msecs]
+Building war: D:\Data Arief\Universitas Pancasila\Semester VI\Pemrograman 4\Praktikum\Praktikum1\target\Praktikum-1-1.0-SNAPSHOT.war
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 7.239s
+Finished at: Fri Apr 01 15:41:37 ICT 2016
+Final Memory: 13M/33M
+------------------------------------------------------------------------
+NetBeans: Deploying on GlassFish Server 4.1
+    profile mode: false
+    debug mode: false
+    force redeploy: true
+Undeploying ...
+In-place deployment at D:\Data Arief\Universitas Pancasila\Semester VI\Pemrograman 4\Praktikum\Praktikum1\target\Praktikum-1-1.0-SNAPSHOT
